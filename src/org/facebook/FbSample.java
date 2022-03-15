@@ -13,7 +13,7 @@ public class FbSample {
 		driver.manage().window().maximize();
 		
 		WebElement textuser = driver.findElement(By.id("email"));
-		textuser.sendKeys("appu@123");
+		textuser.sendKeys("appu@1239089");
 		
 		WebElement textpass = driver.findElement(By.id("pass"));
 		textpass.sendKeys("1234");
