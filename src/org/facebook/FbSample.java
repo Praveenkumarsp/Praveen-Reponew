@@ -17,7 +17,7 @@ public class FbSample {
 		
 		WebElement textpass = driver.findElement(By.id("pass"));
 		textpass.sendKeys("1234");
-		
+		WebElement t=driver.findElement(by.id("pss"));
 		
 		
 		
